@@ -1,0 +1,59 @@
+# Benchmark "CARRY4WHOLE" written by ABC on Mon Apr 17 16:06:40 2023
+.model CARRY4WHOLE
+.inputs CI CYINIT DI[0] DI[1] DI[2] DI[3] S[0] S[1] S[2] S[3]
+.outputs CO[0] CO[1] CO[2] CO[3] O[0] O[1] O[2] O[3]
+.names CI CYINIT new_n19_
+00 1
+.names S[0] new_n19_ new_n20_
+10 1
+.names DI[0] S[0] new_n21_
+10 1
+.names new_n20_ new_n21_ CO[0]
+00 0
+.names S[1] CO[0] new_n23_
+11 1
+.names DI[1] S[1] new_n24_
+10 1
+.names new_n23_ new_n24_ CO[1]
+00 0
+.names S[2] CO[1] new_n26_
+11 1
+.names DI[2] S[2] new_n27_
+10 1
+.names new_n26_ new_n27_ CO[2]
+00 0
+.names S[3] CO[2] new_n29_
+11 1
+.names DI[3] S[3] new_n30_
+10 1
+.names new_n29_ new_n30_ CO[3]
+00 0
+.names S[0] new_n19_ new_n32_
+11 1
+.names S[0] new_n19_ new_n33_
+00 1
+.names new_n32_ new_n33_ O[0]
+00 0
+.names DI[0] S[0] new_n35_
+00 1
+.names new_n32_ new_n35_ new_n36_
+00 1
+.names S[1] new_n36_ new_n37_
+10 1
+.names S[1] new_n36_ new_n38_
+01 1
+.names new_n37_ new_n38_ O[1]
+00 0
+.names S[2] CO[1] new_n40_
+01 1
+.names S[2] CO[1] new_n41_
+10 1
+.names new_n40_ new_n41_ O[2]
+00 0
+.names S[3] CO[2] new_n43_
+01 1
+.names S[3] CO[2] new_n44_
+10 1
+.names new_n43_ new_n44_ O[3]
+00 0
+.end

@@ -1,0 +1,5 @@
+# Benchmark "$abstract\CARRY4BITS" written by ABC on Mon Apr 17 16:02:58 2023
+.model $abstract\CARRY4BITS
+.inputs
+.outputs
+.end
