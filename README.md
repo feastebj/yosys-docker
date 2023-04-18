@@ -1,8 +1,7 @@
 # Setup:
 
 ```console
-$ sudo docker pull benipoo/yosys:latest
-$ sudo docker run --name yosys -it --rm -v HOME_DIRECTORY:/yosys/docker-stuff \benipoo/yosys:latest
+$ ./build.sh
 $ source ./environment
 $ apt install npm -y && git clone https://github.com/nturley/netlistsvg
 $ cd netlistsvg
