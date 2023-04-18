@@ -1,3 +1,4 @@
+	#!/usr/bin/env bash
 	# How to get it working on any PC in about 8 bash commands:
 	
 	```console
