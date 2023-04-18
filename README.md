@@ -11,6 +11,6 @@ $ yosys -p 'synth -auto-top ; abc -g cmos2,-NOR; write_verilog output.v' carry4b
 $ netlistsvg answer.json
 ```
 ## Here is the resulting out.svg:
-![](out.svg)
+![](output_snippet.png)
 
 
