@@ -1,7 +1,7 @@
 # Setup:
 
 ```console
-$ ./build.sh
+$ ./build1.sh
 $ source ./environment
 $ apt install npm -y && git clone https://github.com/nturley/netlistsvg
 $ cd netlistsvg
