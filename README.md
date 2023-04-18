@@ -1,4 +1,4 @@
-# How to get it working on any PC in about 8 bash commands:
+# Setup:
 
 ```console
 $ sudo docker pull benipoo/yosys:latest
